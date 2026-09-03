@@ -1,7 +1,0 @@
-likes(aditi,apurva).
-likes(apurva,aditi).
-likes(rohini,komal).
-
-friendship(X,Y):-
-    likes(Y,X);
-    likes(W,Z);
